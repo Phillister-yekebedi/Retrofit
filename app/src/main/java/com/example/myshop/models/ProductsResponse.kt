@@ -1,6 +1,6 @@
-package com.example.myshop
+package com.example.myshop.models
 
-import android.media.audiofx.DynamicsProcessing.Limiter
+import com.example.myshop.models.Product
 
 data class ProductsResponse(
     var products: List<Product>,
